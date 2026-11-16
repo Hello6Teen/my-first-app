@@ -1,2 +1,2 @@
 import streamlit as he
-he.title("Hello")
+he.title("🧾 แอปคำนวณส่วนลดและ VAT 7%")
