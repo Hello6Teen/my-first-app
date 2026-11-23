@@ -5,6 +5,5 @@ discount = he.number_input("กรอกส่วนลด (%):", min_value=0.0 
 he.divider()
 vat = price * 0.07
 net_price = price - vat
-re_discount = 
 he.write(f"• ภาษีมูลค่าเพิ่ม (VAT 7%): **{vat:.2f}** บาท")
 he.write(f"• ราคาสุทธิ: {net_price:.2f} บาท")
